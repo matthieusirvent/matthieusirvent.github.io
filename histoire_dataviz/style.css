@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Martel|Martel+Sans');
+
+
+body {
+	margin:0;
+}
+
+h1 {
+	text-align:center;
+	font-family: 'Martel', serif;
+}
+
+.test {
+	margin:1em;
+}
+
+.contenu, .tl-caption, .tl-credit, .tl-timenav, .tl-slidenav-content-container {
+    font-family : 'Martel Sans', sans-serif;
+}
+
+.tl-timemarker-media-container {
+	display:none;
+}
+
+.tl-text-content-container .tl-headline {
+	text-align:center;
+	font-family: 'Martel', serif;
+    margin-bottom: 10px;
+    margin-top:10px !important;
+}
+
+.tl-headline-date {
+	text-align:center;
+	font-family: 'Martel', serif !important;
+	color:black !important;
+}
+
+.tl-text-content, p {
+	font-family: 'Martel', serif;
+}
