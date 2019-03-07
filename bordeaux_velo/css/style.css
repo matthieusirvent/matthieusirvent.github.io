@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,800|Teko:400,500');
+
+/*Menu de navigation */
+.navbar {
+    padding:0.5rem 0rem 0.5rem 1rem;
+    background-color:white;
+}
+
+.titre {
+    font-family: "Open Sans", Verdana, sans-serif;
+    color:black;
+    font-size:1.5rem;
+    padding-left: 1rem;
+    font-weight: 800;
+}
+
+.nav-link {
+    font-family: Teko, Verdana, sans-serif;
+    color:black;
+    border-left: 1px solid black;
+    font-size:1.5rem;
+    transition: all 0.5s;
+}
+
+.nav-link:hover {
+    color:white;
+    background-color:rgba(0,0,0,0.9);
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+    border:none;
+    border-radius: 0;
+    margin:0;
+}
+
+/* Menu responsive */
+.navbar-collapse {
+    flex-grow:0;
+}
+
+.navbar-nav, .navbar-link, .navbar-expand-lg {
+    padding:0;
+}
+
+.navbar-expand-lg {
+    padding:0.5rem 0rem 0.5rem 1rem
+}
+
+.navbar-toggler-icon {
+    background-image:url(../images/burger.svg)
+        /* url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") */
+}
+
+@media (max-width:768px) {
+    .titre {
+        display: none;
+    }
+}
+
+@media (max-width:992px) {
+    .dropdown-menu {
+        display:block;
+        padding-left: 1rem;
+        padding-top:0;
+        padding-bottom:0;
+    }
+}
+
+/* Bannière titre */
+#bantitre {
+    font-family: Teko, Verdana, sans-serif;
+    font-size:5rem;
+    text-align:center;
+    padding:6rem 0;
+    text-transform: upper case;
+}
+
+@media (max-width: 768px) {
+    #bantitre {
+        font-size:4rem;
+    }
+}
+
+/* Bannière aménagements */
+#banniere_amg {
+    background-image: url(../images/ban_amenagements.jpg);
+    background-size: cover;
+}
+
+/* Bannière location */
+#banniere_loc {
+    background-image: url(../images/ban_location.jpg);
+    background-size: cover;
+}
+
+/* Bannière sport */
+#banniere_sport {
+    background-image: url(../images/ban_sport.jpg);
+    background-size: cover;
+}
+
+/* Bannière vélodrome */
+#banniere_vel {
+    background-image: url(../images/ban_velodrome.jpg);
+    background-size: cover;
+}
+
+/* Bannière Tour de France */
+#banniere_tdf {
+    background-image: url(../images/ban_tdf.jpg);
+    background-size: cover;
+}
+
+/* Bannière aides */
+#banniere_aides {
+    background-image: url(../images/ban_aides.jpg);
+    background-size: cover;
+}
+
+/* Polices de texte */
+h2 {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+h3 {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size:1.5rem;
+}
+
+p,li {
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+/* Attributions de photo */
+figcaption {
+    font-size:0.7rem;
+    text-align: right
+}
+
+#banlegende {
+    margin-top:-1rem;
+    margin-bottom:-1rem;
+    font-size: 0.7rem;
+}
+
+/* Taille du contenu */
+.container, .new {
+    margin-top: 2rem;
+}
+
+.illu {
+    width:100%;
+}
+
+p {
+    margin-top: 1rem;
+}
+
+.firstp {
+    margin-top: 0;
+}
+
+@media (max-width: 768px) {
+    .firstp {
+        margin-top:1rem;
+    }
+}
+
+.titreseul {
+    margin-bottom:0;
+}
+
+/* Couleur des liens */
+a, a:hover {
+    color: #6D071A;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    margin:0;
+}
+
+#piedpage {
+    color:white;
+    text-align:center;
+    padding-top: 2rem;
+    padding-bottom:2rem;
+    margin-bottom:0;
+}

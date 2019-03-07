@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Bordeaux à vélo</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/style_index.css"/>
+        <link rel="stylesheet" href="js/vegas/vegas.min.css"/>
+	</head>
+	<body>
+        <img src="images/bordeauxvelo.png" alt="Logo Bordeaux Vélo" id="logo"/>
+        
+        <nav class="fixed-bottom">
+            <div class="menu"><a href="amenagements.html"><h2>Aménagements</h2></a></div>
+            <div class="menu"><a href="location.html"><h2>Location</h2></a></div>
+            <div class="menu"><a href="sport.html"><h2>Pratique sportive</h2></a></div>
+            <div class="menu"><a href="aides.html"><h2>Aides</h2></a></div>
+        </nav>
+        
+        <script src="http://code.jquery.com/jquery.min.js"></script>
+        <script src="js/vegas/vegas.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+        <script>
+            $("body").vegas({
+                slides: [
+                    { src: "images/accueil1.jpg" },
+                    { src: "images/accueil2.jpg" },
+                    { src: "images/accueil3.jpg" },
+                    { src: "images/accueil4.jpg" },
+                    { src: "images/accueil5.jpg" }
+                ],
+                overlay: "js/vegas/overlays/06.png",
+            });
+        </script>
+	</body>
+</html>
